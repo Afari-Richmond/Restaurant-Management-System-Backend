@@ -7,7 +7,7 @@ import (
 	controller "golang-restaurant-management-system-backend/controllers"
 )
 
-func userRoutes(router *gin.Engine) {
+func UserRoutes(router *gin.Engine) {
 	incomingRoutes.GET("/users", controller.GetUsers())
 	incomingRoutes.GET("/users/:user_id", controller.GetUser())
 	incomingRoutes.POST("/users/signup", controller.SignUp())

@@ -5,7 +5,7 @@ import (
 controller 	"golang-restaurant-management-system-backend/controllers"
 )
 
-func foodRoutes(incomingRoutes *gin.Engine) {
+func FoodRoutes(incomingRoutes *gin.Engine) {
 	incomingRoutes.GET("/foods", controller.GetFoods())
 	incomingRoutes.GET("/foods/:food_id", controller.GetFood())
 	incomingRoutes.POST("/foods", controller.CreateFood())
