@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Recurse \"C:\\\\Users\\\\HP\\\\Desktop\\\\restaurant-management-system-backend\")",
+      "Bash(Select-Object FullName, Length)"
+    ]
+  }
+}
