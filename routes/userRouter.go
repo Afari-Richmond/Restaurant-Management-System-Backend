@@ -4,7 +4,7 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	"golang-restaurant-management-system-backend/controllers"
+	controller "golang-restaurant-management-system-backend/controllers"
 )
 
 func userRoutes(router *gin.Engine) {
